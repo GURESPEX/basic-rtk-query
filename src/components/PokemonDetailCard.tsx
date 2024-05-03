@@ -13,7 +13,7 @@ const PokemonDetailCard = ({ data }: { data: Pokemon | undefined }) => {
           <div className="col gap-2">
             <div
               onClick={() => navigate(-1)}
-              className="opacity-50 hover:opacity-60 active:opacity-70 transition"
+              className="hover:cursor-pointer opacity-50 hover:opacity-60 active:opacity-70 transition"
             >
               <img className="w-12 h-12" src={backIcon} alt="back" />
             </div>
